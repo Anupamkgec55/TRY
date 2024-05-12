@@ -1,0 +1,33 @@
+.dept{
+    border: 1px solid black;
+    margin: 10px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.dept_cards{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+}
+.inner_dept{
+    display: grid;
+}
+
+.dept_footer{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: blue;
+    margin-top: 100px;
+    width: 100%;
+
+}
+
+.dept_ft{
+    
+    border: 2px solid red;
+}

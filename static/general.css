@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.first_part{
+    margin-top: 62px;
+}
+
+.card_inner{
+    position: relative;
+    color: red;
+}
+.card_inner.isflipped{
+    transform: rotateY(180deg);
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+link[rel="icon"] {
+    border-radius: 50%;
+}

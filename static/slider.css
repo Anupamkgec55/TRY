@@ -1,0 +1,21 @@
+
+.slider_disease{
+    position: absolute;
+    right: 0px;
+    margin-top: 20px ;
+}
+
+.prompt1{
+    background-color:white;
+    height:120px;
+    width:570px;
+    margin: 5px 0px 5px 0px;
+    opacity:0.7;
+}
+.t{
+    position: absolute;
+    left:100px;
+    margin-top: 200px;
+    background-color: white;
+    opacity: 0.7;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SymptoAI</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/general.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/information.css">
+    <link rel="stylesheet" href="/static/slider_cards_footer.css">
+    <link rel="stylesheet" href="/static/slider.css">
+    <link rel="stylesheet" href="/static/cards.css">
+    <link rel="stylesheet" href="/static/footer.css">
+    <link rel="icon" type="image/png" href="/static/src/Button_img/favi.jpg">
+</head>
+
+<body>
+    <script src="/static/script.js"></script>
+    <!--Header-->
+<div class="first_part">
+    <div class="header">
+        <h2 id="logo">Sympto.AI</h2>
+        <div class="nav">
+            <ul>
+              <li><a href="{% url 'home' %}">Home</a></li>
+              <li><a href="{% url 'about' %}">About</a></li>
+              <li><a href="{% url 'dept' %}">Departments</a></li>
+              <li><a href="{% url 'cont' %}">Contacts</a></li>
+          
+              
+            </ul>
+        </div>
+    </div>
+  </div>
+
+    <!--Second Div block-->
+    <div class="second_div">
+        <div class="info_text">
+            <h2 style="font-size: 50px;">The Most valuable </h2>
+            <h1 style="font-size: 50px;">Thing is Your Health</h1>
+            <h3>Health is the crown on the well persons head that only the ill person can see</h3>
+        </div>
+    </div>
+
+<!-- information of Disease -->
+<div class="information">
+<div class="Disease_info">
+    <div class="Button_box">    
+        <div class="bb">
+        <button id="buttn" onclick="showPara(1)">
+            <img id="im" src="../static/src/Button_img/icons8-medical-heart-40.png" alt="">Heart Disease</button>
+        <button id="buttn" onclick="showPara(2)">
+            <img id="im" src="../static/src/Button_img/icons8-liver-40.png" alt="">
+            Liver Disease</button>
+        <button id="buttn" onclick="showPara(3)">
+            <img id="im"src="../static/src/Button_img/icons8-diabetes-40.png" alt="">Diabetes</button>
+        <button id="buttn" onclick="showPara(4)">
+            <img id="im"src="../static/src/Button_img/icons8-cancer-ribbon-40 (1).png" alt="">
+            Brest Cancer</button>
+        </div>
+    
+    </div>
+
+    <div class="Disease_para" style="padding-right: 90px; padding-top: 50px;">
+        <p id="paragraph1">Heart disease generally refers to the conditions that involve narrowed or blocked blood vessels that can lead to a heart attack, chest pain(angina) or stroke. Other heart conditions, such as those that affect your heart's muscle, valves or rhythm, also are considered forms of heart disease.</p>
+        <p id="paragraph2" class="hidden">Patients with liver disease have been continuously increasing because of excessive consumption of alcohol,inhalation of harmful gases, intake of contaminated foods, pickles and drugs.
+        </p>
+        <p id="paragraph3" class="hidden">Diabetes is a chronic disease or group of metabolic diseases where a person suffers from extended level of blood glucose in the body, which is either the insulin production is inadequate, or because the body's cells do not respond properly to insulin.
+        </p>
+        <p id="paragraph4" class="hidden">Breast cancer (BC) is one of the most common cancers among women worldwide, represnting the majority of new cancer cases and cancer related deaths according to the global statistics, making it a significant public health problem in today's society.</p>
+        
+    </div>
+</div>
+</div>
+
+<!--slider cards footer-->
+
+    <div class="sliderr">
+        <div class="t">
+            <h1>Symptoms
+            </h1>
+        </div>
+        <div class="slider_disease" style="color: black;font-weight: bold;">
+           
+            <div class="prompt1">Heart Disease Symptopms
+                <p>Chest pain , chest tightness, chest pressure, chest discomfort, shortness of breadth, pain in the neck,jaw, upper abdomen or back.</p>
+            </div>
+            <div class="prompt1">Liver Disease Symptopms
+                <p>Abdominal pain, swelling in the legs and ankles, itchy skin, dark urine color, chronic fatigue, nausea, or vomiting, loss of appetite.</p>
+            </div>
+            <div class="prompt1">Diabetes Symptopms
+                <p>Urinating often, feeling very thirsty, feeling very hungry, extreme fatigue, blurry vision, tingling or numbness in the hands, cuts/bruises that are slow to heal.</p>
+            </div>
+            <div class="prompt1">Brest Cancer Symptopms
+                <p>Irritated or itchy breasts, change in breast colour, increase in breast size or shape(over a short period of time), changes in touch(may feel hard, tender or warm), peeling or flaking of the nipple skin, breast lump or thickening, redness or pitting of the breast skin.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" style="margin-top: 5px;">
+        
+        <div class="ft">
+          <div class="first">
+            <h1 id="one">Health-Diagonosis</h1>
+            <p id="two">Healing is a Matter of Time,but it is sometimes also matter of opportunity</p>
+          </div>
+          <div class="second">
+            <img style="border-radius:80%;margin-left: 20px;" src="../static/src/Button_img/download (1).png" alt="">
+            <img style="border-radius:80%;margin-left: 20px"src="../static/src/Button_img/twt.png" alt="">
+            <img style="border-radius:80%;margin-left: 20px"src="../static/src/Button_img/ins.jpg" alt="">
+          </div>
+        </div>
+    
+        <div class="ft">
+            
+              <div class="nav_ft">
+                <ul>
+                  <h1 class="ft_h1">Site Links</h1>
+                  <li><a href="{% url 'about' %}">Home</a></li>
+                  <li><a href="{% url 'about' %}">About</a></li>
+                  <li><a href="{% url 'dept' %}">Departments</a></li>
+                  <li><a href="{% url 'dept' %}">Analysis</a></li>
+                  <li><a href="{% url 'dept' %}">Contacts</a></li>
+              
+                  
+                </ul>
+            </div>
+        </div>
+    
+        <div class="ft">
+          <div class="infor">
+          <h1 id="q">Have a Question?</h1>
+            <div class="call">+91 8597823037</div>
+            <div class="mail">SymptoAI.com</div>
+          </div>
+        </div>
+         
+      </div>
+      <div class="copyright">   
+        <p >Copyright ©2024 All rights reseved | SymptoAI</p>
+        </div>
+    </div>
+
+ 
+
+    
+</body>
+</html>

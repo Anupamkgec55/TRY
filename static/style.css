@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  height: 60px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+.nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 200px;
+}
+
+.nav > ul > li {
+  list-style-type: none;
+  margin-right: 35px;
+}
+
+.nav > ul > a {
+  text-decoration: none;
+}
+
+.second_div {
+  margin-top: 62px;
+  background-image: url(src/background1.jpg);
+  height: 600px;
+  background-size: cover;
+}
+.second_div::background-image {
+  opacity: 0.9;
+}
+
+.info_text {
+  text-align: center;
+  padding: 200px;
+  color: rgb(90, 4, 4);
+}
+
+.disease_info {
+  background-color: red;
+}
+
+.four_dis {
+  display: flex;
+  flex-direction: column;
+}
+
+#logo {
+  padding-left: 120px;
+}

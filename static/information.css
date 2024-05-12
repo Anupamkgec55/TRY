@@ -1,0 +1,52 @@
+.hidden{
+    display: none;
+}
+
+.information{
+    height:380px;
+}
+
+.Disease_info{
+    margin-top: 0px;
+    display: flex;
+    position: absolute;
+    height: 380px;
+    /* background-color:red; */
+}
+
+.bb{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    position: relative;
+    background-color:#0624ce;
+    margin-top: 50px;
+    width: 300px;
+    height: 400px;
+    margin-left: 100px;
+    top:-70px
+}
+
+#buttn{
+    background-color:#0624ce;
+    color:white;
+    border: none;
+    cursor:pointer;
+    margin:40px 20px 10px 70px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    width: 230px;
+    
+}
+
+.Disease_para{
+    flex-grow:1;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#im{
+    height: 28px;
+    margin-right: 20px;
+}

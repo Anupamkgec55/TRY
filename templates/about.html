@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sympto.AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/general.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/information.css">
+    <link rel="stylesheet" href="/static/slider_cards_footer.css">
+    <link rel="stylesheet" href="/static/slider.css">
+    <link rel="stylesheet" href="/static/cards.css">
+    <link rel="stylesheet" href="/static/footer.css">
+</head>
+
+<body>
+    <script src="/static/script.js"></script>
+    <!--Header-->
+<div class="first_part">
+    <div class="header">
+        <h2 id="logo">Sympto.AI</h2>
+        <div class="nav">
+            <ul>
+              <li><a href="{% url 'home' %}">Home</a></li>
+              <li><a href="{% url 'about' %}">About</a></li>
+              <li><a href="{% url 'dept' %}">Departments</a></li>
+              <li><a href="{% url 'dept' %}">Contacts</a></li>
+         
+            </ul>
+        </div>
+    </div>
+
+    <!--Second Div block-->
+    <div class="second_div">
+        <div class="info_text">
+            <h2>............</h2>
+            <h1>About Page</h1>
+            <h3>..........................</h3>
+        </div>
+    </div>
+
+<!-- information of Disease -->
+<div class="information">
+<div class="Disease_info">
+    <div class="Button_box">    
+        <div class="bb">
+        <button id="buttn" onclick="showPara(1)">
+            <img id="im"src="./src/Button_img/icons8-medical-heart-40.png" alt="">Heart Disease</button>
+        <button id="buttn" onclick="showPara(2)">
+            <img id="im" src="./src/Button_img/icons8-liver-40.png" alt="">
+            Liver Disease</button>
+        <button id="buttn" onclick="showPara(3)">
+            <img id="im"src="./src/Button_img/icons8-diabetes-40.png" alt="">Diabetes</button>
+        <button id="buttn" onclick="showPara(4)">
+            <img id="im"src="./src/Button_img/icons8-cancer-ribbon-40 (1).png" alt="">
+            Brest Cancer</button>
+        </div>
+    
+    </div>
+
+    <div class="Disease_para">
+        <p id="paragraph1">This is the first paragraph. It's shown by default.</p>
+        <p id="paragraph2" class="hidden">This is the second paragraph.</p>
+        <p id="paragraph3" class="hidden">This is the third paragraph.</p>
+        <p id="paragraph4" class="hidden">This is the fourth paragraph.</p>
+        
+    </div>
+</div>
+</div>
+</div>
+
+
+
+<div class="footer">
+        
+    <div class="ft">
+      <div class="first">
+        <p id="one">Health-Diagonosis</p>
+        <p id="two">Healing is a Matter of Time,but it is sometimes also matter of opportunity</p>
+      </div>
+      <div class="second">
+        <img src="../static/src/Footer/icons8-google-logo-100.png" alt="">
+        <img src="../static/src/Footer/icons8-twitter-logo-50.png" alt="">
+        <img src="../static/src/Footer/icons8-instagram-reels-50.png" alt="">
+      </div>
+    </div>
+
+    <div class="ft">
+        
+          <div class="nav_ft">
+            <ul>
+              <h1 class="ft_h1">Site Links</h1>
+              <li><a href="{% url 'about' %}">Home</a></li>
+              <li><a href="{% url 'about' %}">About</a></li>
+              <li><a href="{% url 'dept' %}">Departments</a></li>
+              <li><a href="{% url 'dept' %}">Analysis</a></li>
+              <li><a href="{% url 'dept' %}">Contacts</a></li>
+          
+              
+            </ul>
+        </div>
+    </div>
+
+    <div class="ft">
+      <div class="infor">
+      <h1 id="q">Have a Question?</h1>
+        <div class="call">+91 8597823037</div>
+        <div class="mail">SymptoAI.com</div>
+      </div>
+    </div>
+     
+  </div>
+  <div class="copyright">   
+    <p >Copyright ©2024 All rights reseved | SymptoAI</p>
+    </div>
+</div>
+</body>
+</html>
